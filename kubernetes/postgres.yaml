@@ -41,7 +41,7 @@ spec:
         tier: postgreSQL
     spec:
       containers:
-        - image: postgres:9.6.2-alpine
+        - image: postgres
           name: postgresql
           env:
             - name: POSTGRES_USER
